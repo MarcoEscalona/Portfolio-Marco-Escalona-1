@@ -1,0 +1,65 @@
+/* MQ mobile index */
+
+@media screen and (max-width: 576px){
+    h2 {
+        font-size: 1.5em;
+    }
+    .img-generico img {
+        width: 100%;
+    }
+    .boton {
+        width: 100%; 
+    }
+}
+
+/* Sobre-mi */
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    .imagenInicial {
+        width: 100%;
+    }
+}
+
+/* Portfolio */
+
+@media (max-width: 576px) {
+    img {
+        width: 100%
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+}
+
+/* Servicios */
+
+@media (max-width: 576px) {
+    .contenedor-videos {
+        flex-direction: column; 
+    }
+    h1 {
+        font-size: 1.5em; 
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
+/* Contacto */
+
+@media (max-width: 576px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    a {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+}
+
+
+

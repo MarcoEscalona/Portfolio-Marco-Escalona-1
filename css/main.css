@@ -1,580 +1,614 @@
 /* rest */
-
-*{
-    margin: 8;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 8;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
 
+/* Estilos */
 header {
-    background-color: rgb(71, 125, 71);
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: rgb(71, 125, 71);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+header .logoprincipal {
+  max-width: 50%;
+}
+header navbar {
+  margin-top: 10px;
 }
 
-.logo-principal {
-    max-width: 100px;
-}
-
-.navbar {
-    margin-top: 10px;
-}
-
-/* Estilos del contenido principal index mobile */
 .div-general {
-    padding: 20px;
+  padding: 5px;
 }
-
-.div-uno, .div-generico {
-    margin-bottom: 20px;
+.div-general .div-uno, .div-general .div-generico {
+  margin-bottom: 20px;
 }
-
-h2 {
-    font-size: 1.8em;
+.div-general h2 {
+  font-size: 1.8em;
 }
-
-p {
-    font-size: 1em;
+.div-general p {
+  font-size: 1em;
 }
-
-.img_bienvenida {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
+.div-general .img_bienvenida {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
-
-.boton {
-    background-color: rgb(109, 147, 109);
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 10px;
+.div-general .boton {
+  background-color: rgb(71, 125, 71);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
 }
-
-.titulo-generico {
-    font-size: 1.5em;
-    margin: 20px 0;
+.div-general .titulo-generico {
+  font-size: 1.5em;
+  margin: 20px 0;
 }
-
-.img-generico {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 10px;
+.div-general .img-generico {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-
-.img-generico img {
-    width: calc(50% - 10px);
-    height: auto;
+.div-general .img-generico img {
+  width: calc(50% - 10px);
+  height: auto;
 }
-
-.p-inferior {
-    font-style: italic;
-    text-align: center;
-    margin-top: 10px;
+.div-general .p-inferior {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
 }
 
 footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #343a40;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
 }
 
-/* Media querys mobile index*/
-@media (max-width: 576px) {
-    h2 {
-        font-size: 1.5em;
-    }
-    
-    .img-generico img {
-        width: 100%;
-    }
-
-    .boton {
-        width: 100%; 
-    }
-}
-
-/* Estilos para desktop index*/
-@media (min-width: 1024px) {
-    .div-general {
-        padding: 40px;
-    }
-
-    .div-uno, .div-generico {
-        margin-bottom: 30px;
-    }
-
-    h2 {
-        font-size: 2.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    .img-generico img {
-        width: calc(33.33% - 10px);
-    }
-
-    .titulo-generico {
-        font-size: 2em;
-        margin: 30px 0;
-    }
-
-    .boton {
-        padding: 15px 30px;
-    }
-
-    footer {
-        padding: 20px 0;
-    }
-}
-
-/* Estilos Sobre-mi.html */
+/* Estilos Sobre-mi */
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(71, 125, 71); 
+  font-family: Arial, sans-serif;
+  background-color: white;
 }
 
 header {
-    background-color: rgb(71, 125, 71);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: rgb(71, 125, 71);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
-
-.logo-principal {
-    max-width: 100px; 
-    margin-bottom: 10px;
+header .logo-principal {
+  max-width: 100px;
+  margin-bottom: 10px;
 }
-
-h1 {
-    margin: 0;
+header h1 {
+  margin: 0;
 }
-
-.navbar {
-    margin-top: 10px;
+header .navbar {
+  margin-top: 10px;
 }
-
-.nav-link {
-    color: rgb(71, 125, 71); 
+header .nav-link {
+  color: rgb(71, 125, 71);
 }
 
 .contenedor-uno {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
-
-h2 {
-    font-size: 1.8em;
+.contenedor-uno h2 {
+  font-size: 1.8em;
 }
-
-h2 span {
-    color: rgb(71, 125, 71);
+.contenedor-uno h2 span {
+  color: rgb(71, 125, 71);
 }
-
-.imagenInicial {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
+.contenedor-uno .imagenInicial {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
-
-.lorem-p {
-    font-size: 1em;
-    margin-top: 10px;
+.contenedor-uno .lorem-p {
+  font-size: 1em;
+  margin-top: 10px;
 }
 
 footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #343a40;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
 }
 
-/* Media querys mobile Sobre-mi.html */
-@media (max-width: 576px) {
-    h2 {
-        font-size: 1.5em;
-    }
-    
-    .imagenInicial {
-        width: 100%;
-    }
-}
-
-/* Estilos para desktop Sobre-mi */
-@media (min-width: 1024px) {
-    body {
-        background-color: rgb(71, 125, 71);
-    }
-
-    header {
-        padding: 20px 0;
-    }
-
-    .contenedor-uno {
-        padding: 40px;
-        text-align: left; 
-    }
-
-    h2 {
-        font-size: 2.5em;
-    }
-
-    .lorem-p {
-        font-size: 1.2em;
-    }
-
-    .imagenInicial {
-        margin-top: 20px;
-        width: 80%;
-    }
-
-    footer {
-        padding: 20px 0;
-    }
-}
-
-/* Estilos generales portfolio */
+/* Estilos Portfolio */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
 
 header {
-    background-color: rgb(71, 125, 71);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: rgb(71, 125, 71);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
-
-.logo-principal {
-    max-width: 100px;
-    margin-bottom: 10px;
+header .logo-principal {
+  max-width: 100px;
+  margin-bottom: 10px;
 }
-
-h1 {
-    margin: 0;
+header h1 {
+  margin: 0;
 }
-
-.navbar {
-    margin-top: 10px;
+header .navbar {
+  margin-top: 10px;
 }
-
-.nav-link {
-    color: rgb(71, 125, 71);
+header .nav-link {
+  color: rgb(71, 125, 71);
 }
 
 .contenedor-dos {
-    padding: 20px;
+  padding: 20px;
 }
-
-h4 {
-    text-align: center;
-    margin: 20px 0;
+.contenedor-dos h4 {
+  text-align: center;
+  margin: 20px 0;
 }
-
-.retratos02, .paisajes01 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    gap: 10px; 
+.contenedor-dos .retratos02, .contenedor-dos .paisajes01 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
-
-img {
-    max-width: 100%; 
-    height: auto;
-    border-radius: 5px;
+.contenedor-dos img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #343a40;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
 }
 
-/* Media querys para mobile porfolio.html */
-@media (max-width: 576px) {
-    img {
-        width: calc(50% - 10px);
-    }
-
-    h4 {
-        font-size: 1.5em;
-    }
-}
-
-@media (max-width: 376px) {
-    img {
-        width: 100%;
-    }
-}
-
-/* Estilos para desktop portfolio.html */
-@media (min-width: 1024px) {
-    header {
-        padding: 20px 0; 
-    }
-
-    .contenedor-dos {
-        padding: 40px;
-    }
-
-    h4 {
-        font-size: 2em;
-    }
-
-    .retratos02, .paisajes01 {
-        justify-content: space-around;
-    }
-
-    img {
-        max-width: 45%;
-    }
-
-    footer {
-        padding: 20px 0;
-    }
-}
-
-/* Estilos generales Servicios.htl */
+/* estilos servicios.html */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
 
 header {
-    background-color: rgb(71, 125, 71); 
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: rgb(71, 125, 71);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
-
-.logo-principal {
-    max-width: 100px; 
-    margin-bottom: 10px;
+header .logo-principal {
+  max-width: 100px;
+  margin-bottom: 10px;
 }
-
-h1 {
-    margin: 0;
+header h1 {
+  margin: 0;
 }
-
-.navbar {
-    margin-top: 10px;
+header .navbar {
+  margin-top: 10px;
 }
-
-.nav-link {
-    color: rgb(71, 125, 71);
+header .nav-link {
+  color: rgb(71, 125, 71);
 }
 
 main {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
-
-h1 {
-    margin-bottom: 20px;
+main h1 {
+  margin-bottom: 20px;
 }
-
-.contenedor-videos {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px;
+main .contenedor-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-
-.item1, .item2, .item3 {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+main .item1, main .item2, main .item3 {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-h3 {
-    margin-bottom: 10px; 
+main h3 {
+  margin-bottom: 10px;
 }
-
-iframe {
-    max-width: 100%; 
-    height: auto; 
+main iframe {
+  max-width: 100%;
+  height: auto;
 }
-
-.p-video01, .p-video02, .p-video03 {
-    margin-top: 10px;
-    font-size: 0.9em; 
+main .p-video01, main .p-video02, main .p-video03 {
+  margin-top: 10px;
+  font-size: 0.9em;
 }
 
 footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #343a40;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
 }
 
-/* Media querys mobile servicios.html */
-@media (max-width: 576px) {
-    .contenedor-videos {
-        flex-direction: column; 
-    }
-
-    h1 {
-        font-size: 1.5em; 
-    }
-    
-    h3 {
-        font-size: 1.2em;
-    }
-}
-
-/* Estilos para desktop servicios.html */
-@media (min-width: 1024px) {
-    main {
-        padding: 40px;
-    }
-
-    .contenedor-videos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .item1, .item2, .item3 {
-        width: calc(30% - 20px); 
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-size: 1.5em; 
-    }
-
-    .p-video01, .p-video02, .p-video03 {
-        font-size: 1em;
-    }
-
-    footer {
-        padding: 20px 0;
-    }
-}
-
-/* Estilos generales Contacto.htl */
+/* estilos contacto.html */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
 
 header {
-    background-color: rgb(71, 125, 71); 
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: rgb(71, 125, 71);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
-
-.logo-principal {
-    max-width: 100px; 
-    margin-bottom: 10px;
+header .logo-principal {
+  max-width: 100px;
+  margin-bottom: 10px;
 }
-
-h1, h2 {
-    margin: 20px 0; 
+header h1, header h2 {
+  margin: 20px 0;
 }
-
-.navbar {
-    margin-top: 10px;
+header .navbar {
+  margin-top: 10px;
 }
-
-.nav-link {
-    color:rgb(71, 125, 71); 
+header .nav-link {
+  color: rgb(71, 125, 71);
 }
 
 main {
-    padding: 20px;
-    text-align: center; 
+  padding: 20px;
+  text-align: center;
+}
+main .botton1, main .boitton2, main .botton3 {
+  margin: 15px 0;
+}
+main a {
+  text-decoration: none;
+  color: rgb(71, 125, 71);
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+main a:hover {
+  background-color: rgb(71, 125, 71);
+  color: white;
+}
+main a i {
+  margin-right: 8px;
 }
 
-.botton1, .boitton2 {
-    margin: 15px 0; 
+footer {
+  background-color: #343a40;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
 }
 
-a {
-    text-decoration: none; 
-    color: rgb(71, 125, 71);;
+/* MQ mobile index */
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  .img-generico img {
+    width: 100%;
+  }
+  .boton {
+    width: 100%;
+  }
+}
+/* Sobre-mi */
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  .imagenInicial {
+    width: 100%;
+  }
+}
+/* Portfolio */
+@media (max-width: 576px) {
+  img {
+    width: 100%;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+}
+/* Servicios */
+@media (max-width: 576px) {
+  .contenedor-videos {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h3 {
     font-size: 1.2em;
-    padding: 10px 20px;
-    border: 2px solid black;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  }
 }
-
-a:hover {
-    background-color: rgb(71, 125, 71);; 
-    color: white;
-}
-
-a i {
-    margin-right: 8px;
-}
-
-footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/* Media querys para contacto.html */
+/* Contacto */
 @media (max-width: 576px) {
-    h1, h2 {
-        font-size: 1.5em;
-    }
-
-    a {
-        font-size: 1em;
-        padding: 8px 15px;
-    }
+  h1, h2 {
+    font-size: 1.5em;
+  }
+  a {
+    font-size: 1em;
+    padding: 8px 15px;
+  }
 }
-
-/* Estilos para desktop contacto.html */
+/* index */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    padding: 30px;
+  }
+  .logo-principal {
+    max-width: 120px;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  h4.titulo-generico {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  .img-generico img {
+    max-width: 250px;
+  }
+}
+/* Sobre-mi */
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  .logo-principal {
+    max-width: 100px;
+  }
+  h2 {
+    font-size: 2.8em;
+  }
+  .contenedor-uno {
+    padding: 40px;
+  }
+  .imagenInicial {
+    max-width: 90%;
+  }
+  .lorem-p {
+    font-size: 1.2em;
+  }
+}
+/* portfolio */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contenedor-dos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .retratos01, .paisajes01 {
+    margin-bottom: 20px;
+  }
+  .retratos02, .paisajes02 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .retratos02 img, .paisajes02 img {
+    width: 100%;
+    height: auto;
+  }
+  h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+/* Servicios */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-principal {
+    width: 80%;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .contenedor-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item1, .item2, .item3 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .video001, .video002, .video003 {
+    width: 100%;
+    height: auto;
+  }
+  .p-video01, .p-video02, .p-video03 {
+    text-align: center;
+  }
+}
+/* contact0*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 1.1rem;
+  }
+  header {
+    text-align: center;
+  }
+  .logo-principal {
+    width: 80%;
+    max-width: 200px;
+  }
+  nav .navbar {
+    justify-content: center;
+  }
+  main {
+    padding: 20px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .botton1, .botton2, .botton3 {
+    margin: 10px 0;
+    display: block;
+  }
+  #contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+/* index */
+@media screen and (min-width: 1024px) {
+  .div-general {
+    padding: 40px;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .img-generico img {
+    width: calc(33.33% - 10px);
+  }
+  .titulo-generico {
+    font-size: 2em;
+    margin: 30px 0;
+  }
+  .boton {
+    padding: 15px 30px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+}
+/* sobre-mi */
 @media (min-width: 1024px) {
-    main {
-        padding: 40px;
-    }
-
-    h1, h2 {
-        margin: 30px 0;
-    }
-
-    .botton1, .boitton2 {
-        margin: 20px 0;
-    }
-
-    a {
-        font-size: 1.5em; 
-        padding: 15px 30px; 
-        border-width: 3px; 
-    }
-
-    footer {
-        padding: 20px 0;
-    }
+  header {
+    padding: 20px 0;
+  }
+  .contenedor-uno {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  .lorem-p {
+    font-size: 1.2em;
+  }
+  .imagenInicial {
+    margin-top: 20px;
+    width: 80%;
+  }
+  footer {
+    padding: 20px 0;
+  }
+}
+/* Portfolio */
+@media (min-width: 1024px) {
+  .contenedor-dos {
+    padding: 40px;
+  }
+  .retratos02, .paisajes02 {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .retratos01 h4, .paisajes01 h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  .retratos02 img, .paisajes02 img {
+    border-radius: 10px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+}
+/* Servicios */
+@media (min-width: 1024px) {
+  main {
+    padding: 60px;
+  }
+  .contenedor-videos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .item1, .item2, .item3 {
+    width: calc(70% - 60px);
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  .p-video01, .p-video02, .p-video03 {
+    font-size: 1em;
+  }
+  footer {
+    padding: 20px 0;
+  }
+}
+/* Contacto */
+@media (min-width: 1024px) {
+  main {
+    padding: 40px;
+  }
+  h1, h2 {
+    margin: 30px 0;
+  }
+  .botton1, .boitton2 {
+    margin: 20px 0;
+  }
+  a {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border-width: 3px;
+  }
+  footer {
+    padding: 20px 0;
+  }
 }
 
-
+/*# sourceMappingURL=main.css.map */

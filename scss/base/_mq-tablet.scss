@@ -1,0 +1,135 @@
+/* index */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        padding: 30px;
+    }
+    .logo-principal {
+        max-width: 120px;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    h4.titulo-generico {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    .img-generico img {
+        max-width: 250px; 
+    }
+}
+
+/* Sobre-mi */
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .logo-principal {
+        max-width: 100px;
+    }
+    h2 {
+        font-size: 2.8em;
+    }
+    .contenedor-uno {
+        padding: 40px;
+    }
+    .imagenInicial {
+        max-width: 90%;
+    }
+    .lorem-p {
+        font-size: 1.2em;
+    }
+}
+
+/* portfolio */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contenedor-dos {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .retratos01, .paisajes01 {
+        margin-bottom: 20px;
+    }
+    .retratos02, .paisajes02 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    .retratos02 img, .paisajes02 img {
+        width: 100%;
+        height: auto;
+    }
+    h4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+/* Servicios */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-principal {
+        width: 80%;
+        max-width: 300px;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contenedor-videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item1, .item2, .item3 {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .video001, .video002, .video003 {
+        width: 100%;
+        height: auto;
+    }
+    .p-video01, .p-video02, .p-video03 {
+        text-align: center;
+    }
+}
+
+/* contact0*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 1.1rem;
+    }
+    header {
+        text-align: center;
+    }
+    .logo-principal {
+        width: 80%;
+        max-width: 200px;
+    }
+    nav .navbar {
+        justify-content: center;
+    }
+    main {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .botton1, .botton2, .botton3 {
+        margin: 10px 0;
+        display: block;
+    }
+    #contact-form {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+

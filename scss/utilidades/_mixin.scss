@@ -1,0 +1,36 @@
+//mixin margin y paddin
+
+@mixin margenes{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin flex-bienvenida{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+@mixin flex-generico{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+@mixin flex-paisajes01{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px;
+}
+
+@mixin flex-contenedor-videos{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+@mixin footer{
+    text-align: center;
+    padding: 10px 0;
+}
