@@ -40,9 +40,9 @@ header navbar {
   font-size: 1em;
 }
 .div-general .img_bienvenida {
-  width: 100%;
+  width: 75%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .div-general .boton {
   background-color: rgb(71, 125, 71);
@@ -59,10 +59,11 @@ header navbar {
 .div-general .img-generico {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 .div-general .img-generico img {
-  width: calc(50% - 10px);
+  width: calc(40% - 8px);
   height: auto;
 }
 .div-general .p-inferior {
@@ -107,6 +108,8 @@ header .nav-link {
 .contenedor-uno {
   padding: 20px;
   text-align: center;
+  align-items: center;
+  width: 100%;
 }
 .contenedor-uno h2 {
   font-size: 1.8em;
@@ -115,9 +118,8 @@ header .nav-link {
   color: rgb(71, 125, 71);
 }
 .contenedor-uno .imagenInicial {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
+  width: 80%;
+  margin-top: 8px;
 }
 .contenedor-uno .lorem-p {
   font-size: 1em;

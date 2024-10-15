@@ -47,6 +47,7 @@ header{
     .img-generico {
         display: flex;
         flex-wrap: wrap; 
+        justify-content: center;
         gap: 10px;
     }
     .img-generico img {
@@ -73,29 +74,11 @@ body{
     background-color: $color-secundario;
 }
 
-header{
-    background-color: $color-principal;
-    color: $color-secundario;
-    text-align: center;
-    padding: 10px 0;
-    .logo-principal{
-        max-width: 100px; 
-        margin-bottom: 10px;
-    }
-    h1 {
-        margin: 0;
-    }
-    .navbar {
-        margin-top: 10px;
-    }
-    .nav-link {
-        color: $color-principal; 
-    }
-}
-
 .contenedor-uno{
     padding: 20px;
     text-align: center;
+    align-items: center;
+    width: 100%;
     h2 {
         font-size: 1.8em;
         span{
@@ -103,20 +86,13 @@ header{
         }
     }
     .imagenInicial{
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
+        width: 80%;
+        margin-top: 8px;
     }
     .lorem-p{
         font-size: 1em;
         margin-top: 10px;
     }
-}
-
-footer{
-    background-color: $color-footer1;
-    color: $color-footer2;
-    @include footer;  
 }
 
 /* Estilos Portfolio */
@@ -126,26 +102,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-}
-
-header{
-    background-color: $color-principal;
-    color: $color-secundario;
-    text-align: center;
-    padding: 10px 0;
-    .logo-principal{
-        max-width: 100px;
-        margin-bottom: 10px;
-    }
-    h1 {
-        margin: 0;
-    }
-    .navbar {
-        margin-top: 10px;
-    }
-    .nav-link {
-        color: $color-principal;
-    }
 }
 
 .contenedor-dos{
@@ -164,12 +120,6 @@ header{
     }
 }
 
-footer{
-    background-color: $color-footer1;
-    color: $color-footer2;
-    @include footer;
-}
-
 /* estilos servicios.html */
 
 body {
@@ -177,26 +127,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-}
-
-header {
-    background-color: $color-principal; 
-    color: $color-secundario;
-    text-align: center;
-    padding: 10px 0;
-    .logo-principal {
-        max-width: 100px; 
-        margin-bottom: 10px;
-    }
-    h1 {
-        margin: 0;
-    }
-    .navbar {
-        margin-top: 10px;
-    }
-    .nav-link {
-        color: $color-principal;
-    }
 }
 
 main{
@@ -227,12 +157,6 @@ main{
     }    
 }
 
-footer {
-    background-color: $color-footer1;
-    color: $color-footer2;
-    @include footer;
-}
-
 /* estilos contacto.html */
 
 body {
@@ -240,26 +164,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-}
-
-header {
-    background-color: $color-principal; 
-    color: $color-secundario;
-    text-align: center;
-    padding: 10px 0;
-    .logo-principal{
-        max-width: 100px; 
-        margin-bottom: 10px;
-    }
-    h1, h2 {
-        margin: 20px 0; 
-    }
-    .navbar {
-        margin-top: 10px;
-    }
-    .nav-link {
-        color:$color-principal; 
-    }
 }
 
 main {
@@ -290,11 +194,6 @@ main {
     }
 }
 
-footer {
-    background-color: $color-footer1;
-    color: $color-footer2;
-    @include footer;
-}
 
 
 
