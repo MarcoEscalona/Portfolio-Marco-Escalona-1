@@ -1,6 +1,13 @@
 /* index */
 
 @media screen and (min-width: 1024px){
+    .logo-principal{
+        max-width: 150px;
+    }
+    header h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
     .div-general{
         padding: 40px;
     }
@@ -29,7 +36,7 @@
 
 @media (min-width: 1024px){
     header {
-        padding: 20px 0;
+        padding: 15px 0;
     }
     .contenedor-uno {
         padding: 40px;

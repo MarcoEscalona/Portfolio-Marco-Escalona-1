@@ -17,11 +17,13 @@ body {
 header {
   background-color: rgb(71, 125, 71);
   color: white;
-  padding: 10px 0;
+  padding: 4px 0;
   text-align: center;
 }
-header .logoprincipal {
-  max-width: 50%;
+header .logo-principal {
+  display: block;
+  margin: 0 auto;
+  height: auto;
 }
 header navbar {
   margin-top: 10px;
@@ -40,9 +42,9 @@ header navbar {
   font-size: 1em;
 }
 .div-general .img_bienvenida {
-  width: 75%;
-  height: auto;
-  margin-top: 8px;
+  width: 50%;
+  height: 50%;
+  margin-top: 5px;
 }
 .div-general .boton {
   background-color: rgb(71, 125, 71);
@@ -63,7 +65,7 @@ header navbar {
   gap: 10px;
 }
 .div-general .img-generico img {
-  width: calc(40% - 8px);
+  width: calc(50% - 10px);
   height: auto;
 }
 .div-general .p-inferior {
@@ -83,26 +85,6 @@ footer {
 body {
   font-family: Arial, sans-serif;
   background-color: white;
-}
-
-header {
-  background-color: rgb(71, 125, 71);
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-header .logo-principal {
-  max-width: 100px;
-  margin-bottom: 10px;
-}
-header h1 {
-  margin: 0;
-}
-header .navbar {
-  margin-top: 10px;
-}
-header .nav-link {
-  color: rgb(71, 125, 71);
 }
 
 .contenedor-uno {
@@ -126,39 +108,12 @@ header .nav-link {
   margin-top: 10px;
 }
 
-footer {
-  background-color: #343a40;
-  color: whitesmoke;
-  text-align: center;
-  padding: 10px 0;
-}
-
 /* Estilos Portfolio */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
-}
-
-header {
-  background-color: rgb(71, 125, 71);
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-header .logo-principal {
-  max-width: 100px;
-  margin-bottom: 10px;
-}
-header h1 {
-  margin: 0;
-}
-header .navbar {
-  margin-top: 10px;
-}
-header .nav-link {
-  color: rgb(71, 125, 71);
 }
 
 .contenedor-dos {
@@ -169,22 +124,16 @@ header .nav-link {
   margin: 20px 0;
 }
 .contenedor-dos .retratos02, .contenedor-dos .paisajes01 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
 }
-.contenedor-dos img {
-  max-width: 100%;
+.contenedor-dos .galeria_img1, .contenedor-dos .galeria_img2, .contenedor-dos .galeria_img3, .contenedor-dos .galeria_img4,
+.contenedor-dos .galeria_img5, .contenedor-dos .galeria_img6, .contenedor-dos .galeria_img7, .contenedor-dos .galeria_img8, .contenedor-dos .galeria_img9 {
+  width: 100%;
   height: auto;
-  border-radius: 5px;
-}
-
-footer {
-  background-color: #343a40;
-  color: whitesmoke;
-  text-align: center;
-  padding: 10px 0;
+  border-radius: 10px;
 }
 
 /* estilos servicios.html */
@@ -193,26 +142,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
-}
-
-header {
-  background-color: rgb(71, 125, 71);
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-header .logo-principal {
-  max-width: 100px;
-  margin-bottom: 10px;
-}
-header h1 {
-  margin: 0;
-}
-header .navbar {
-  margin-top: 10px;
-}
-header .nav-link {
-  color: rgb(71, 125, 71);
 }
 
 main {
@@ -245,39 +174,12 @@ main .p-video01, main .p-video02, main .p-video03 {
   font-size: 0.9em;
 }
 
-footer {
-  background-color: #343a40;
-  color: whitesmoke;
-  text-align: center;
-  padding: 10px 0;
-}
-
 /* estilos contacto.html */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
-}
-
-header {
-  background-color: rgb(71, 125, 71);
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-header .logo-principal {
-  max-width: 100px;
-  margin-bottom: 10px;
-}
-header h1, header h2 {
-  margin: 20px 0;
-}
-header .navbar {
-  margin-top: 10px;
-}
-header .nav-link {
-  color: rgb(71, 125, 71);
 }
 
 main {
@@ -308,20 +210,20 @@ main a i {
   margin-right: 8px;
 }
 
-footer {
-  background-color: #343a40;
-  color: whitesmoke;
-  text-align: center;
-  padding: 10px 0;
-}
-
 /* MQ mobile index */
 @media screen and (max-width: 576px) {
+  .logo-principal {
+    max-width: 120px;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
   h2 {
     font-size: 1.5em;
   }
   .img-generico img {
-    width: 100%;
+    width: 75%;
   }
   .boton {
     width: 100%;
@@ -343,6 +245,9 @@ footer {
   }
   h4 {
     font-size: 1.5em;
+  }
+  .retratos02, .paisajes02 {
+    grid-template-columns: 1fr;
   }
 }
 /* Servicios */
@@ -499,6 +404,13 @@ footer {
 }
 /* index */
 @media screen and (min-width: 1024px) {
+  .logo-principal {
+    max-width: 150px;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
   .div-general {
     padding: 40px;
   }
@@ -525,14 +437,14 @@ footer {
 /* sobre-mi */
 @media (min-width: 1024px) {
   header {
-    padding: 20px 0;
+    padding: 15px 0;
   }
   .contenedor-uno {
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 75%;
+    width: 100%;
   }
   h2 {
     font-size: 2.5em;

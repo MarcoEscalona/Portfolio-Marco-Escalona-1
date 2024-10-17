@@ -8,10 +8,12 @@
 header{
     background-color: $color-principal;
     color: $color-secundario;
-    padding: 10px 0;
+    padding: 4px 0;
     text-align: center;
-    .logoprincipal{
-        max-width: 50%;
+    .logo-principal{
+        display: block;
+        margin: 0 auto;
+        height: auto;
     }
     navbar{
         margin-top: 10px;
@@ -113,10 +115,11 @@ body{
     .retratos02, .paisajes01 {
        @include flex-paisajes01
     }
-    img {
-        max-width: 100%; 
+    .galeria_img1, .galeria_img2, .galeria_img3, .galeria_img4,
+    .galeria_img5, .galeria_img6, .galeria_img7, .galeria_img8, .galeria_img9{
+        width: 100%; 
         height: auto;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 }
 
